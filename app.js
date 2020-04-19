@@ -1,13 +1,13 @@
-// const validator = require('validator')
 const chalk = require('chalk');
+const yargs = require('yargs');
 const getNotes = require('./notes')
 
-const msg = getNotes();
+const command = process.argv[2]
 
-console.log(msg)
+console.log(process.argv)
 
-console.log(chalk.green.inverse.bold('Sucess!'))
-
-// console.log(validator.isURL('http://anugoonj-ipu.com'))
-// const name = require('./utils');
-// console.log(name);
+if (command === 'add') {
+    console.log('Adding notes!');
+} else if (command === 'remove') {
+    console.log('Removing notes!')
+}
