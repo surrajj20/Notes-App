@@ -1,5 +1,5 @@
 # Notes-keeping-web-App </br>
-Method to run the web-App is in image...
+Method to run the web-App is in image.
 
 <hr>
 <p>
